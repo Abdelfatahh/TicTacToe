@@ -38,6 +38,9 @@
 ### How to Run
 
 1. Clone the repo
+```
+git clone https://github.com/Abdelfatahh/TicTacToe
+```
 2. Open The project in Netbeans IDE.
 3. Find libraries in project home.
 4. Right Click on libraries and select Add JAR/Folder
