@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <ImageView fitHeight="762.0" fitWidth="903.0" layoutX="10.0" layoutY="10.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <image>
+            <Image url="@../../../../../Desktop/istockphoto-989794376-170667a.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="269.0" layoutY="465.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="385.0" style="-fx-background-color: #FFC600; -fx-cursor: hand;" text="EXIT">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="66.0" layoutY="268.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="385.0" style="-fx-background-color: #FFC600; -fx-cursor: hand;" text="NEW PLAYER">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="472.0" layoutY="268.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="385.0" style="-fx-background-color: #FFC600; -fx-cursor: hand;" text="OLD PLAYER">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

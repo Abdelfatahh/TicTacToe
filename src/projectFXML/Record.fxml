@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <ImageView fitHeight="762.0" fitWidth="903.0" layoutX="10.0" layoutY="10.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <image>
+            <Image url="@../../../../../Desktop/istockphoto-989794376-170667a.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="772.0" prefWidth="913.0">
+         <children>
+            <Button layoutX="60.0" layoutY="601.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="184.0" style="-fx-background-color: #FFC600; -fx-cursor: hand;" text="BACK">
+               <font>
+                  <Font name="Calibri Bold" size="40.0" />
+               </font>
+            </Button>
+            <ScrollPane layoutX="396.0" layoutY="227.0" prefHeight="355.0" prefWidth="389.0">
+               <content>
+                  <VBox prefHeight="353.0" prefWidth="385.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="385.0" style="-fx-background-color: #FFC600; -fx-cursor: hand;" text="Click">
+                           <font>
+                              <Font name="Calibri Bold" size="40.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
